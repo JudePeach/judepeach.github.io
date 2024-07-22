@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="furnival-design.css">
+        <link rel="stylesheet" href="media.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <title>Furnival Design - About</title>
+    </head>
+
+    <body>
+        <nav id="nav-desktop">
+            <div class="logo">
+                <a href = "../index.html">furnival design.</a>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li><a href = "meet-the-team.html">Meet the team.</a></li>
+                    <li><a href = "previous-work.html">Products.</a></li>
+                    <li><a href = "about.html"><u>About.</u></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="mobile-nav">
+            <div class="logo">
+                <a href = "../index.html">furnival design.</a>
+            </div>
+            <div class = "mobile-menu">
+                <div class="mobile-nav-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                <div class="mobile-menu-links">
+                    <li><a href = "meet-the-team.html" onclick="toggleMenu()">Meet the team.</a></li>
+                    <li><a href = "previous-work.html" onclick="toggleMenu()">Products.</a></li>
+                    <li><a href = "about.html" onclick="toggleMenu()">About</a>.</li>
+                </div>
+               
+            </div>
+        </nav>
+        
+        <section id = "about-sections">
+            <div class = "about-pic-container">
+                <img src = "../assets/day_out.jpg">
+            </div>
+            <div id="about-vert">
+                <div class = "product-text-container">
+                    <h1>Our story</h1>
+                    
+                    <p style = "letter-spacing: 1px;">At Furnival Design, we blend modern digital media solutions with a rich heritage from our sister company, the historic Furnival Printing Press. Specializing in web development, we honor our legacy by delivering bespoke, high-quality digital experiences.</p>
+                </div>
+            
+                <div class = "product-text-container">
+                    <h1>Products / Services</h1>
+                    
+                    <p style = "letter-spacing: 1px;">We offer a comprehensive suite of services including SEO, web development, graphic design, and advertisement consultation. Our products are tailored to enhance your digital presence and drive business growth.</p>
+                </div>
+                <div class="product-text-container">
+                    <h1>Previous work</h1>
+                   
+                    <p style = "letter-spacing: 1px;">As a startup, our portfolio currently showcases the website we developed for our sister company, Furnival Press. This project highlights our commitment to quality and our expertise in delivering effective digital solutions.</p>
+                </div>  
+                
+            </div>  
+           
+        
+            
+        </section>
+       
+        
+        <script type = "text/javascript" src="furnival-scripts.js"></script>
+    </body>
+</html>

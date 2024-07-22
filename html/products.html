@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="furnival-design.css">
+        <link rel="stylesheet" href="media.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <title>Furnival Design - Products</title>
+    </head>
+
+    <body>
+        <nav id="nav-desktop">
+            <div class="logo">
+                <a href = "homepage.html">furnival design.</a>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li><a href = "meet-the-team.html">Meet the team.</a></li>
+                    <li><a href = "previous-work.html"><u>Products.</u></a></li>
+                    <li><a href = "about.html">About</a>.</li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="mobile-nav">
+            <div class="logo">
+                <a href = "homepage.html">furnival design.</a>
+            </div>
+            <div class = "mobile-menu">
+                <div class="mobile-nav-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                <div class="mobile-menu-links">
+                    <li><a href = "meet-the-team.html" onclick="toggleMenu()">Meet the team.</a></li>
+                    <li><a href = "previous-work.html" onclick="toggleMenu()">Products.</a></li>
+                    <li><a href = "about.html" onclick="toggleMenu()">About.</a>.</li>
+                </div>
+               
+            </div>
+        </nav>
+        
+        <section id="portfolio">
+            <div class="portfolio-item">
+                <img src="../assets/biz-cards-clean-4.png" width="200px" alt="Business Cards">
+                <a href = "business-print.html">
+                <button class = "btn btn-color-1" >Bespoke Business Printing</button>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <img src="../assets/traytraytray.png" width="200px" alt="Labels and Packaging">
+                <a href = "labels-packaging.html">
+                <button class = "btn btn-color-1" >Labels and Packaging</button>
+                </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="../assets/funeral.png" width="120px" alt="Occasions">
+                <a href = "occasions.html">
+                <button class = "btn btn-color-1" >Occasions</button>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <img src="../assets/banner.png" width="120px" alt="Displays and Exhibitions">
+                <a href = "displays-exhibits.html">
+                <button class = "btn btn-color-1" onlclick = "location.href= 'displays-exhibits.html'" >Displays and Exhibitions</button>
+                </a>
+            </div>
+        </section>
+        <section id="portfolio-2">
+            <div class="portfolio-item">
+                <img src="../assets/Asset-57.svg" width="150px" alt="Business Cards">
+                <a href = "clothing.html">
+                <button class = "btn btn-color-1" >Promo and clothing</button>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <img src="../assets/detox-brochure.png" width="175px" alt="Labels and Packaging">
+                <a href = "mailto:david@furnivalpress.co.uk">
+                <button class = "btn btn-color-1" >Flyers and leaflets</button>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <img src="../assets/wedding.png" width="120px" alt="Occasions">
+                <a href = "mailto:david@furnivalpress.co.uk">
+                <button class = "btn btn-color-1" >Wedding printing</button>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <img src="../assets/Untitled-1.png" width="120px" alt="Displays and Exhibitions">
+                <a href = "mailto:david@furnivalpress.co.uk">
+                <button class = "btn btn-color-1" >Sameday express printing</button>
+                </a>
+            </div>
+        </section>
+        
+    
+        
+        
+        
+        <script type = "text/javascript" src="furnival-scripts.js"></script>
+    </body>
+</html>

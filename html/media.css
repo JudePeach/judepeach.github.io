@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+    #nav-desktop{
+        display: none;
+    }
+    #mobile-nav{
+        display: flex;
+    }
+}
