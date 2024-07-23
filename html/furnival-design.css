@@ -578,16 +578,16 @@ img {
     }
 
     .section-pic-container-home {
+        padding-right: 0;
         
-        
-        height: 20rem;
-        width: 20rem;
+        height:10rem;
+        width: 10rem;
     }
     .section-pic-container-home img{
         
         padding-left: 3rem;
-        height: 20rem;
-        width: 20rem;
+        height: 10rem;
+        width: 10rem;
     }
     .section-pic-container {
        margin: 2rem;
@@ -631,7 +631,8 @@ img {
         margin: auto 0;
      }
     #profile-home{
-        flex-direction: column;
+        padding-right:1rem ;
+        
       
         
 
@@ -643,7 +644,7 @@ img {
     
 
     .title {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .section-text-p2 {
