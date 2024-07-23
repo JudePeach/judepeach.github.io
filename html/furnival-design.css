@@ -245,6 +245,7 @@ section {
 #profile-home {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
     height: 80vh;
 }
@@ -276,6 +277,7 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    padding-right: 5rem;
 }
 
 .section-pic-container img {
@@ -576,12 +578,14 @@ img {
     }
 
     .section-pic-container-home {
-        margin: auto 12.5%;
+        padding-left: 4rem;
+        
         height: 10rem;
         width: 15rem;
     }
     .section-pic-container-home img{
         padding-bottom: 0rem;
+        
         height: 10rem;
         width: 15rem;
     }
@@ -628,7 +632,7 @@ img {
      }
     #profile-home{
         flex-direction: column;
-        padding: 0rem;
+      
         
 
     }
