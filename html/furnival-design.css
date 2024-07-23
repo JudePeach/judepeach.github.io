@@ -578,16 +578,16 @@ img {
     }
 
     .section-pic-container-home {
-        padding-left: 4rem;
+        
         
         height: 10rem;
-        width: 15rem;
+        width: 10rem;
     }
     .section-pic-container-home img{
-        padding-bottom: 0rem;
+        
         
         height: 10rem;
-        width: 15rem;
+        width: 10rem;
     }
     .section-pic-container {
        margin: 2rem;
