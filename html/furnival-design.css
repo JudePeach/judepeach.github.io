@@ -576,7 +576,13 @@ img {
     }
 
     .section-pic-container-home {
-        height: 15rem;
+        margin: auto 12.5%;
+        height: 10rem;
+        width: 15rem;
+    }
+    .section-pic-container-home img{
+        padding-bottom: 0rem;
+        height: 10rem;
         width: 15rem;
     }
     .section-pic-container {
@@ -621,17 +627,16 @@ img {
         margin: auto 0;
      }
     #profile-home{
-        display:contents;
+        flex-direction: column;
+        padding: 0rem;
+        
+
+    }
+    footer {
         padding: 1rem;
-
     }
 
-    .section-pic-container-home {
-      margin: auto 3rem;
-      
-        
-        
-    }
+    
 
     .title {
         font-size: 1rem;
@@ -647,10 +652,12 @@ img {
 
     .btn {
        
-        padding: 0.75rem;
+        padding: 0.5rem;
+        
     }
 
     .icon {
+        padding: 0.5rem;
         height: 1.25rem;
     }
 }
