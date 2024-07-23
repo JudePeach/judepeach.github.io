@@ -627,7 +627,8 @@ img {
     }
 
     .section-pic-container-home {
-       padding-left: 20%;
+      margin: auto;
+      padding: 1.5rem;
         
         
     }
