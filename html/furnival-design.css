@@ -580,13 +580,14 @@ img {
 
     .section-pic-container-home {
         padding-right: 0;
-        
+        padding-bottom: 8rem;
         height:10rem;
         width: 10rem;
     }
     .section-pic-container-home img{
         
         padding-left: 3rem;
+       
         height: 10rem;
         width: 10rem;
     }
